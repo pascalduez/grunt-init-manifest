@@ -1,6 +1,6 @@
 # grunt-init-manifest
 
-> Create a set of basic WebApp manifest files with [grunt-init][].
+> Create a set of basic WebApp manifest files with [grunt-init][].  
 > ["manifest.webapp", "package.webapp", "manifest.appcache"]
 
 [grunt-init]: http://gruntjs.com/project-scaffolding

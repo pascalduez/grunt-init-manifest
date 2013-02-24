@@ -42,13 +42,13 @@ exports.template = function(grunt, init, done) {
           return word[0].toUpperCase() + word.slice(1).toLowerCase();
         });
         data.title = title;
-        title = "A human-readable name for the app: " + title;
-        done(null, title);
+        data.title_default = "A human-readable name for the app: " + title;
+        done(null, data.title_default);
       },
       validator: /^.{1,128}$/,
       warning: "Maximum length is 128 characters.",
       sanitize: function(value, data, done) {
-        done(data.title);
+        done( value === data.title_default ? data.title : value );
       }
     },
     {
