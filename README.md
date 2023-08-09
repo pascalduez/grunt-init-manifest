@@ -1,3 +1,5 @@
+<div align="center">⚠️ Archived project</div>
+
 # grunt-init-manifest
 
 > Create a set of basic WebApp manifest files with [grunt-init][].  
